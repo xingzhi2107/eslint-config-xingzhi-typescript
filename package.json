@@ -1,6 +1,6 @@
 {
   "name": "@xingzhi2107/eslint-config-xingzhi-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my typescript eslint config for typescript",
   "main": "index.js",
   "repository": "https://github.com/xingzhi2107/eslint-config-xingzhi-typescript.git",
@@ -16,6 +16,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
-    "@xingzhi2107/eslint-config-xingzhi": "^1.0.0"
+    "@xingzhi2107/eslint-config-xingzhi": "^1.0.1"
   }
 }

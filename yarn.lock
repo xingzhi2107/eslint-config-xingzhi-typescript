@@ -97,10 +97,12 @@
     "@typescript-eslint/types" "4.28.5"
     eslint-visitor-keys "^2.0.0"
 
-"@xingzhi2107/eslint-config-xingzhi@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@xingzhi2107/eslint-config-xingzhi/1.0.0/4c091708c930b94b46bf156bdacd7926d26c7a10f0755be8c3accac6d2b84e83#cfbcf8339f734d86093276a4fe150906a3572a6a"
-  integrity sha512-xnNVMWKVFebYUtdf1p8EwHSD5tk45AONmvzTDP2LQcYnDw3gevdwZM4DF5jYuQIceSkDX6zRcLWs24kzhdVyXg==
+"@xingzhi2107/eslint-config-xingzhi@^1.0.1":
+  version "1.0.1"
+  resolved "https://npm.pkg.github.com/download/@xingzhi2107/eslint-config-xingzhi/1.0.1/d8db18ed0ffb31527d903d7f51037ada3e8c26d1dfe8c9725fbee98ec58b53de#1be2cb8458c8986d69a2506c7d23b6358a01de61"
+  integrity sha512-3LWCbY4KL090bNOz0L93VvlJ84h6/m+mtwsikYON3YIPMRq9+2j4vmv2fuZVT54dIbFTR6Ki+q8/3X1iDT6odg==
+  dependencies:
+    eslint-plugin-prettier "^3.4.0"
 
 array-union@^2.1.0:
   version "2.1.0"
@@ -127,6 +129,13 @@ dir-glob@^3.0.1:
   integrity sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==
   dependencies:
     path-type "^4.0.0"
+
+eslint-plugin-prettier@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-3.4.0.tgz#cdbad3bf1dbd2b177e9825737fe63b476a08f0c7"
+  integrity sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
 
 eslint-scope@^5.1.1:
   version "5.1.1"
@@ -164,6 +173,11 @@ estraverse@^5.2.0:
   version "5.2.0"
   resolved "https://registry.npmjs.org/estraverse/-/estraverse-5.2.0.tgz#307df42547e6cc7324d3cf03c155d5cdb8c53880"
   integrity sha512-BxbNGGNm0RyRYvUdHpIwv9IWzeM9XClbOxwoATuFdOE7ZE6wHL+HQ5T8hoPM+zHvmKzzsEqhgy0GrQ5X13afiQ==
+
+fast-diff@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+  integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
 fast-glob@^3.1.1:
   version "3.2.7"
@@ -270,6 +284,13 @@ picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
+
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
+  dependencies:
+    fast-diff "^1.1.2"
 
 queue-microtask@^1.2.2:
   version "1.2.3"
