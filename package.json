@@ -1,0 +1,21 @@
+{
+  "name": "@xingzhi2107/eslint-config-xingzhi-typescript",
+  "version": "1.0.0",
+  "description": "my typescript eslint config for typescript",
+  "main": "index.js",
+  "repository": "https://github.com/xingzhi2107/eslint-config-xingzhi-typescript.git",
+  "author": "Xingzhi <xingzhi2107@foxmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint "
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "@xingzhi2107/eslint-config-xingzhi": "^1.0.0"
+  }
+}
